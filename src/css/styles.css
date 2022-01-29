@@ -1,0 +1,130 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-weight: 400 !important;
+    color: #555;
+}
+
+/* Hero */
+
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 9.6rem 0;
+}
+
+.hero-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.hero-heading-primary {
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+    letter-spacing: 0.5px;
+    margin-bottom: 3.2rem;
+}
+
+.hero-description {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1.6rem 3.2rem;
+    display: inline-block;
+    border-radius: 150px;
+    transition: all 0.3s;
+}
+
+.btn--cta:link,
+.btn--cta:visited {
+    background-color: #e67e22;
+}
+
+.btn--cta:hover,
+.btn--cta:active {
+    background-color: #5c320e;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #fff;
+    color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: #fdf2e9;
+    color: #555;
+    box-shadow: inset 0 0 0 3px #fff;
+    /* button border without page shifting */
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8.0rem;
+}
+
+.delivered-imgs {
+    display: flex;
+}
+
+.delivered-imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -3.2rem !important;
+    border: 3px solid #fdf2e9
+}
+
+.delivered-imgs img:last-child {
+    margin: 0;
+}
+
+.delivered-text {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 2.6rem;
+}
+
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 700;
+}
