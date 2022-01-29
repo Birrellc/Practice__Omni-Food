@@ -1,4 +1,6 @@
-/* Global */
+/************************************/
+/* BASE COMPONENTS */
+/************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 
@@ -19,35 +21,17 @@ body {
     color: #555;
 }
 
-/* Hero */
+/************************************/
+/* GENERAL REUSEABLE COMPONENTS */
+/************************************/
 
-.section-hero {
-    background-color: #fdf2e9;
-    padding: 9.6rem 0;
-}
-
-.hero-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 9.6rem;
-}
-
-.hero-heading-primary {
+.heading-primary {
     font-size: 4.2rem;
     font-weight: 700;
     line-height: 1.5;
     color: #333;
     letter-spacing: 0.5px;
     margin-bottom: 3.2rem;
-}
-
-.hero-description {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    margin-bottom: 4.8rem;
 }
 
 .btn:link,
@@ -87,12 +71,42 @@ body {
     /* button border without page shifting */
 }
 
-.hero-img {
-    width: 100%;
-}
-
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+
+/************************************/
+/* HEADER */
+/************************************/
+
+
+/************************************/
+/* HERO SECTION */
+/************************************/
+
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 9.6rem 0;
+}
+
+.hero-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.hero-description {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.hero-img {
+    width: 100%;
 }
 
 .delivered-meals {
