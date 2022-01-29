@@ -79,7 +79,20 @@ body {
 /************************************/
 /* HEADER */
 /************************************/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    padding: 0 4.8rem;
+    /* will be stick later so setting height */
+    height: 9.6rem;
+}
 
+
+.logo {
+    height: 2.2rem;
+}
 
 /************************************/
 /* HERO SECTION */
@@ -87,12 +100,13 @@ body {
 
 .section-hero {
     background-color: #fdf2e9;
-    padding: 9.6rem 0;
+    padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero-wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 3.2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
