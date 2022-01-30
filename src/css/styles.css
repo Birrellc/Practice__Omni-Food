@@ -25,6 +25,29 @@ body {
 /* GENERAL REUSEABLE COMPONENTS */
 /************************************/
 
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
     font-size: 4.2rem;
     font-weight: 700;
@@ -79,6 +102,7 @@ body {
 /* HEADER SECTION */
 /************************************/
 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -94,9 +118,11 @@ body {
     height: 2.2rem;
 }
 
+
 /************************************/
 /* NAVIGATION SECTION */
 /************************************/
+
 
 .main-nav-list {
     list-style: none;
@@ -195,3 +221,7 @@ body {
     color: #cf711f;
     font-weight: 700;
 }
+
+/************************************/
+/* HOW IT WORKS SECTION */
+/************************************/
